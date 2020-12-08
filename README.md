@@ -51,3 +51,5 @@ and change it to:
     
 Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go!
 
+Next up, read the first 4 chapters of https://r4ds.had.co.nz/index.html
+
