@@ -33,7 +33,7 @@ Then hit enter. `Tinytex` allows us to create pdf documents.  Once that is done 
 
     tinytex::install_tinytex()
     
-Finally, you will be downloading the assignments and the data from GitHub, so you will need to [download](https://git-scm.com/downloads) and install Git.  
+Assignments will be made available on Github.  Cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
 
 # Testing instructions:
 
