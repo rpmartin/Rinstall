@@ -49,7 +49,15 @@ and change it to:
 
     output: pdf_document
     
-Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go!
+Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change     
+
+output: html_document
+
+to:
+
+output: word_document
+
+As you probably guessed, this produces a (relatively ugly) word document, but it gets the job done. 
 
 Next up, read the first 4 chapters of https://r4ds.had.co.nz/index.html
 
