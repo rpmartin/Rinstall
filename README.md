@@ -21,7 +21,11 @@ Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bot
 
     install.packages("tidyverse")
 
-Then hit enter. The `tidyverse` provides the plotting functionality that we require.  Once that is done (it may take a while) at the blinking cursor type:
+Then hit enter. The `tidyverse` provides the plotting functionality that we require.
+
+**If you made it to this stage you have the minimal install required for the course.** 
+
+Once that is done (it may take a while) at the blinking cursor type:
 
     install.packages("rmarkdown")
 
