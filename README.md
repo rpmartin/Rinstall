@@ -37,13 +37,13 @@ Then hit enter. `Tinytex` allows us to create pdf documents.  Once that is done 
 
     tinytex::install_tinytex()
     
-Finally, you will be downloading the assignments and the data from GitHub, so you will need to [download](https://git-scm.com/downloads) and install Git.  
+Assignments will be made available on Github.  Cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
 
 # Testing instructions:
 
 Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`.  This should open a `hello world` Rmarkdown file. 
 
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file.
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file. Unfortunately BrightSpace (BS) can't deal with html files, it strips all images (plots) out of the file.  As a result, we need to create .pdf files.
 
 In your Rmd file find the line at the top that says 
 
@@ -53,5 +53,15 @@ and change it to:
 
     output: pdf_document
     
-Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go!
+Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change     
+
+output: html_document
+
+to:
+
+output: word_document
+
+As you probably guessed, this produces a (relatively ugly) word document, but it gets the job done. 
+
+Next up, read the first 4 chapters of https://r4ds.had.co.nz/index.html
 
