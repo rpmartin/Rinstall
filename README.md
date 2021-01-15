@@ -23,7 +23,7 @@ Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bot
 
 Then hit enter. The `tidyverse` provides the plotting functionality that we require.
 
-**If you made it to this stage you have the minimal install required for the course.** 
+**If you made it to this stage you have the minimal software install required for the course.** 
 
 Once that is done (it may take a while) at the blinking cursor type:
 
@@ -53,7 +53,7 @@ and change it to:
 
     output: pdf_document
     
-Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change     
+Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change
 
 output: html_document
 
