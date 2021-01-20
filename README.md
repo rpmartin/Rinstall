@@ -15,7 +15,9 @@ For this course your assignments will involve the analysis of data that is gener
 
 # Installation instructions:
 
-Here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.
+If you have money to burn and you would rather not spend your time installing software, check out [rstudio cloud](https://rstudio.cloud/).  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is an internet connection and a web browser. 
+
+For the rest of us, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.
 
 Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bottom left of the IDE) type:
 
