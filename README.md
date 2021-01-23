@@ -15,15 +15,17 @@ For this course your assignments will involve the analysis of data that is gener
 
 # Installation instructions:
 
-If you have money to burn and you would rather not spend your time installing software, check out [rstudio cloud](https://rstudio.cloud/).  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is an internet connection and a web browser. 
+If you have money to burn and you would rather not spend your time installing software, check out [rstudio cloud](https://rstudio.cloud/).  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is a solid internet connection and a web browser. 
 
-For the rest of us, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.
+For the rest of us, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
 
 Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bottom left of the IDE) type:
 
     install.packages("tidyverse")
 
-Then hit enter. The `tidyverse` provides the plotting functionality that we require.
+Then hit enter.  **Again, software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix [Windows10](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
+
+The `tidyverse` provides the plotting functionality that we require.
 
 **If the tidyverse installs without error you have the minimal software install required for the course.** 
 
