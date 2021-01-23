@@ -15,9 +15,9 @@ For this course your assignments will involve the analysis of data that is gener
 
 # Installation instructions:
 
-If you have money to burn and you would rather not spend your time installing software, check out [rstudio cloud](https://rstudio.cloud/).  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is a solid internet connection and a web browser. 
+In the good old days installation of R and Rstudio was a snap, even on windows and Mac OS.  However this seems to have changed, and I think the problem is their increased reliance on cloud drives.  For this reason I would recommend forgoing a painful installation on your computer, and instead use [rstudio cloud](https://rstudio.cloud/)... the irony does not escape me.  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is a solid internet connection and a web browser. 
 
-For the rest of us, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
+However, if you want to give it a go, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
 
 Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bottom left of the IDE) type:
 
