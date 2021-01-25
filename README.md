@@ -15,17 +15,16 @@ For this course your assignments will involve the analysis of data that is gener
 
 There are two paths here:  
 
-1) the easy way, but code runs slow.
+1) the easy way (recommended).
 
-2) the hard way, but code runs fast. 
+2) the hard way (discouraged). 
 
 ## The easy way:
 
 * Go to [rstudio cloud](https://rstudio.cloud/)
 * Click on get started for free.
-* 15 hours/month free, but you can create multiple accounts using multiple email addresses.  
-* Click signup... and sign up.
-* Click new project... +new project.
+* 15 hours/month free, but you can create multiple accounts if you have multiple email addresses. * Click signup... and sign up.
+* Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
 * At the prompt > type library("tidyverse") and hit enter.
 * if you get a message that looks like the following, you are good to go.
