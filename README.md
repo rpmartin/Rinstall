@@ -22,8 +22,7 @@ There are two paths here:
 ## The easy way:
 
 * Go to [rstudio cloud](https://rstudio.cloud/)
-* Click on get started for free.
-* You only get 15 hours/month free per account.
+* Click on get started for free (up to 15 hours/month)
 * Click signup... and sign up.
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
