@@ -39,6 +39,30 @@ There are two paths here:
 x dplyr::filter() masks stats::filter()
 x dplyr::lag()    masks stats::lag() `
 
+# Testing instructions:
+
+Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`.  This should open a `hello world` Rmarkdown file. 
+
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file. Unfortunately BrightSpace (BS) can't deal with html files, it strips all images (plots) out of the file.  As a result, we need to create .pdf files.
+
+In your Rmd file find the line at the top that says 
+
+    output: html_document
+    
+and change it to:
+
+    output: pdf_document
+    
+Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change
+
+output: html_document
+
+to:
+
+output: word_document
+
+As you probably guessed, this produces a (relatively ugly) word document, but it gets the job done.
+
 ## The hard way:
 
 Follow the [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
@@ -67,29 +91,5 @@ Then hit enter. `Tinytex` allows us to create pdf documents.  Once that is done 
     
 Assignments will be made available on Github.  Cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
 
-# Testing instructions (if you managed to install all software):
-
-Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`.  This should open a `hello world` Rmarkdown file. 
-
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file. Unfortunately BrightSpace (BS) can't deal with html files, it strips all images (plots) out of the file.  As a result, we need to create .pdf files.
-
-In your Rmd file find the line at the top that says 
-
-    output: html_document
-    
-and change it to:
-
-    output: pdf_document
-    
-Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change
-
-output: html_document
-
-to:
-
-output: word_document
-
-As you probably guessed, this produces a (relatively ugly) word document, but it gets the job done. 
-
-Next up, read the first 4 chapters of https://r4ds.had.co.nz/index.html
+ 
 
