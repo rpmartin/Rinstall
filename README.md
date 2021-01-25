@@ -41,27 +41,9 @@ x dplyr::lag()    masks stats::lag() `
 
 ### Testing instructions:
 
-Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message saying you need to install packages, choose yes. It will ask you what to call the file, and what sort of output you want: choose pdf.  Next a  `hello world` Rmarkdown file should open. 
+Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message saying you need to install packages, choose yes. It will ask you what sort of output you want: choose pdf.  A `hello world` Rmarkdown file should open. 
 
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file. Unfortunately BrightSpace (BS) can't deal with html files, it strips all images (plots) out of the file.  As a result, we need to create .pdf files.
-
-In your Rmd file find the line at the top that says 
-
-    output: html_document
-    
-and change it to:
-
-    output: pdf_document
-    
-Click the `knit` button again.  This should create a pdf version of your `hello world` file. If this worked, you are ready to go! If this fails for whatever reason, a work around is to change
-
-output: html_document
-
-to:
-
-output: word_document
-
-As you probably guessed, this produces a (relatively ugly) word document, but it gets the job done.
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file.
 
 ## The hard way:
 
