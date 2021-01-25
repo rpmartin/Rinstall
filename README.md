@@ -27,7 +27,7 @@ There are two paths here:
 * Click signup... and sign up.
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
-* At the prompt > type library("tidyverse") and hit enter.
+* At the prompt > type `library("tidyverse")` and hit enter.
 * if you get a message that looks like the following, you are good to go.
 
 ── Attaching packages ──────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
