@@ -15,9 +15,9 @@ For this course your assignments will involve the analysis of data that is gener
 
 There are two paths here:  
 
-1) the easy way (recommended).
+1) the easy way.
 
-2) the hard way (discouraged). 
+2) the hard way. 
 
 ## The easy way:
 
@@ -28,16 +28,16 @@ There are two paths here:
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
 * At the prompt > type `library("tidyverse")` and hit enter.
-* if you get a message that looks like the following, you are good to go.
+* You should get a message that looks like this:
 
-── Attaching packages ──────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
+` ── Attaching packages ──────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
 ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
 ✓ tibble  3.0.5     ✓ dplyr   1.0.3
 ✓ tidyr   1.1.2     ✓ stringr 1.4.0
 ✓ readr   1.4.0     ✓ forcats 0.5.0
 ── Conflicts ─────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 x dplyr::filter() masks stats::filter()
-x dplyr::lag()    masks stats::lag()
+x dplyr::lag()    masks stats::lag() `
 
 ## The hard way:
 
