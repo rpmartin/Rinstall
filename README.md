@@ -15,15 +15,15 @@ For this course your assignments will involve the analysis of data that is gener
 
 There are two paths here:  
 
-1) the easy way, but might cost you $30/month.
+1) the easy way, but code runs slow.
 
-2) the hard way, but it will always be free. 
+2) the hard way, but code runs fast. 
 
 ## The easy way:
 
 * Go to [rstudio cloud](https://rstudio.cloud/)
 * Click on get started for free.
-* Note that you only get 15 hours per month for free.
+* 15 hours/month free, but you can create multiple accounts using multiple email addresses.  
 * Click signup... and sign up.
 * Click new project... +new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
