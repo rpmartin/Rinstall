@@ -7,19 +7,43 @@ output:
     keep_md: yes
 ---
 
-
-
 # Assignments:
 
 For this course your assignments will involve the analysis of data that is generated from a series of 6 experiments.  This allows you to gain experience with the models from two different perspectives: from the inside (as subjects in the experiments) and the outside (as a scientist studying the observed behaviour). This document provides links for setting up the various pieces of R software you will require to do the assignments. No programming experience is assumed or required. 
 
 # Installation instructions:
 
-In the good old days installation of R and Rstudio was a snap, even on windows and Mac OS.  However this seems to have changed, and I think the problem is their increased reliance on cloud drives.  For this reason I would recommend forgoing a painful installation on your computer, and instead use [rstudio cloud](https://rstudio.cloud/)... the irony does not escape me.  Running Rstudio on the cloud sidesteps all of the issues associated with software installation on your computer: all you need is a solid internet connection and a web browser. 
+There are two paths here:  
 
-However, if you want to give it a go, here is an [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
+1) the easy way, but might cost you $30/month.
 
-Once you have installed R and Rstudio, open Rstudio. At the blinking cursor (bottom left of the IDE) type:
+2) the hard way, but it is free. 
+
+## The easy way:
+
+* Go to [rstudio cloud](https://rstudio.cloud/)
+* Click on get started for free.
+* Note that you only get 15 hours per month for free.
+* Click signup... and sign up.
+* Click new project... +new project.
+* At the prompt > type `install.packages("tidyverse")` and hit enter.
+* At the prompt > type library("tidyverse") and hit enter.
+* if you get a message that looks like the following, you are good to go.
+
+── Attaching packages ──────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
+✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+✓ tibble  3.0.5     ✓ dplyr   1.0.3
+✓ tidyr   1.1.2     ✓ stringr 1.4.0
+✓ readr   1.4.0     ✓ forcats 0.5.0
+── Conflicts ─────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+
+## The hard way:
+
+Follow the [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
+
+Once you have installed R and Rstudio, open Rstudio. At the prompt > (bottom left of the IDE) type:
 
     install.packages("tidyverse")
 
