@@ -71,11 +71,9 @@ Once you have installed R and Rstudio, open Rstudio. At the prompt > (bottom lef
 
     install.packages("tidyverse")
 
-Then hit enter.  **Again, software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix the problem on  [Windows10](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
+Then hit enter.  **packages are software, and software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix the problem on  [Windows10](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
 
 The `tidyverse` provides the plotting functionality that we require.
-
-**If the tidyverse installs without error you have the minimal software install required for the course.** 
 
 Once that is done (it may take a while) at the blinking cursor type:
 
