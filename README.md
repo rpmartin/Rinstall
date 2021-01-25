@@ -39,7 +39,7 @@ There are two paths here:
 x dplyr::filter() masks stats::filter()
 x dplyr::lag()    masks stats::lag() `
 
-# Testing instructions:
+### Testing instructions:
 
 Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`.  This should open a `hello world` Rmarkdown file. 
 
