@@ -17,7 +17,7 @@ There are two paths here:
 
 1) the easy way, but might cost you $30/month.
 
-2) the hard way, but it is free. 
+2) the hard way, but it will always be free. 
 
 ## The easy way:
 
