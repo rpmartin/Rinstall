@@ -41,7 +41,7 @@ x dplyr::lag()    masks stats::lag() `
 
 ### Testing instructions:
 
-Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`.  This should open a `hello world` Rmarkdown file. 
+Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message saying you need to install packages, choose yes.  After the packages install,  a `hello world` Rmarkdown file should open. 
 
 Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file. Unfortunately BrightSpace (BS) can't deal with html files, it strips all images (plots) out of the file.  As a result, we need to create .pdf files.
 
