@@ -9,7 +9,7 @@ output:
 
 # Assignments:
 
-For this course your assignments will involve the analysis of data that is generated from a series of 6 experiments.  This allows you to gain experience with the models from two different perspectives: from the inside (as subjects in the experiments) and the outside (as a scientist studying the observed behaviour). This document provides links for setting up the various pieces of R software you will require to do the assignments. No programming experience is assumed or required. 
+For this course your assignments will involve the analysis of data that is generated from a series of 6 experiments.  This allows you to gain experience with the models from two different perspectives: from the inside (as subjects in the experiments) and the outside (as a scientist studying the observed behaviour). This document provides links for setting up the software you will require to do the assignments. No programming experience is assumed or required. 
 
 # Installation instructions:
 
@@ -23,7 +23,7 @@ There are two paths here:
 
 * Go to [rstudio cloud](https://rstudio.cloud/)
 * Click on get started for free.
-* Note that you only get 15 hours/month free per account you open. 
+* You only get 15 hours/month free per account.
 * Click signup... and sign up.
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
@@ -41,9 +41,9 @@ x dplyr::lag()    masks stats::lag() `
 
 ### Testing instructions:
 
-Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message saying you need to install packages, choose yes. It will ask you what sort of output you want: choose pdf.  A `hello world` Rmarkdown file should open. 
+Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message like "Creating Rmarkdown documents requires...", choose yes. It will ask you for a title and an output format: choose pdf.  A `hello world` Rmarkdown file should open. 
 
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask what your Rmarkdown file should be named and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file.
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file.
 
 ## The hard way:
 
