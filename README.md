@@ -52,19 +52,17 @@ Once you have installed R and Rstudio, open Rstudio. At the prompt > (bottom lef
 
     install.packages("tidyverse")
 
-Then hit enter.  **packages are software, and software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix the problem on  [Windows10](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
-
-The `tidyverse` provides the plotting functionality that we require.
+Then hit enter.  **packages are software, and software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix the problem on  [Windows10.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
 
 Once that is done (it may take a while) at the blinking cursor type:
 
     install.packages("rmarkdown")
 
-Then hit enter. `Rmarkdown` weaves together your plots created in R with your prose to produce your assignment submission. Once that is done (this should be relatively quick) at the blinking cursor type:
+Then hit enter. Once that is done (this should be relatively quick) at the blinking cursor type:
 
     install.packages('tinytex')
 
-Then hit enter. `Tinytex` allows us to create pdf documents.  Once that is done (this should be relatively quick) at the blinking cursor type:
+Then hit enter. Once that is done (this should be relatively quick) at the blinking cursor type:
 
     tinytex::install_tinytex()
     
