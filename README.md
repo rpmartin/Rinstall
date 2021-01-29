@@ -30,6 +30,8 @@ For this course your assignments will involve the analysis of data that is gener
 
 **All software should be installed on your local hard drive, not on a network/cloud drive.**
 
+0) Install [homebrew](https://www.studytonight.com/post/what-is-homebrew-and-how-to-install-it-on-mac-osx)
+
 1) brew cask install r
  
 2) brew cask install rstudio
