@@ -13,11 +13,7 @@ For this course your assignments will involve the analysis of data that is gener
 
 # Installation instructions:
 
-There are two paths here:  
-
-1) the easy way.
-
-2) the hard way. 
+![](twopaths.jpeg)
 
 ## The easy way:
 
