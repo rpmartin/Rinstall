@@ -13,9 +13,9 @@ For this course your assignments will involve the analysis of data that is gener
 
 # Installation instructions:
 
-![](twopaths.jpeg)
+![](threepaths.jpeg)
 
-## The easy way:
+## The easy way: slow and expensive.
 
 * Go to [rstudio cloud](https://rstudio.cloud/)
 * Click on get started for free (up to 15 hours/month)
@@ -23,45 +23,60 @@ For this course your assignments will involve the analysis of data that is gener
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
 * At the prompt > type `library("tidyverse")` and hit enter.
-* You should get a message that looks like this:
+* If no error messages, you are ready for testing (instructions below).
 
-` ── Attaching packages ──────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
-✓ ggplot2 3.3.3     ✓ purrr   0.3.4
-✓ tibble  3.0.5     ✓ dplyr   1.0.3
-✓ tidyr   1.1.2     ✓ stringr 1.4.0
-✓ readr   1.4.0     ✓ forcats 0.5.0
-── Conflicts ─────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-x dplyr::filter() masks stats::filter()
-x dplyr::lag()    masks stats::lag() `
+## The hard way: fast and free.
 
-### Testing instructions:
+### MacOS: 
+
+**All software should be installed on your local hard drive, not on a network/cloud drive.**
+
+1) brew cask install r
+ 
+2) brew cask install rstudio
+
+3) open Rstudio. At the prompt > (bottom left of the IDE) type:
+
+    `install.packages("tidyverse")` then hit enter.  
+
+    `install.packages("rmarkdown")` then hit enter.
+    
+    `install.packages("tinytex")` then hit enter.
+    
+    `tinytex::install_tinytex()` then hit enter.
+
+* If no error messages, you are ready for testing (instructions below). If you did get error messages the only thing that is *strictly* necessary is the tidyverse.  If you could not get the tidyverse installed you will need to take the easy path: Rstudio cloud (instructions above.) 
+
+### Windows: 
+
+**All software should be installed on your local hard drive, not on a network/cloud drive.**
+
+1) Follow instructions [here](https://techvidvan.com/tutorials/install-r/#install-r-windows) to install R and Rstudio.
+
+2) An annoying "feature" of windows10+Rstudio is that the default is to install packages on the cloud.  Here is how to fix the [Problem.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
+
+3) open Rstudio. At the prompt > (bottom left of the IDE) type:
+
+    `install.packages("tidyverse")` then hit enter.  
+
+    `install.packages("rmarkdown")` then hit enter.
+    
+    `install.packages("tinytex")` then hit enter.
+    
+    `tinytex::install_tinytex()` then hit enter.
+
+* If no error messages, you are ready for testing. If you did get error messages the only thing that is *strictly* necessary is the tidyverse.  If you were not able to get the tidyverse installed you will need to take the easy path: Rstudio cloud (instructions above.) 
+
+
+# Testing instructions:
 
 Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message like "Creating Rmarkdown documents requires...", choose yes. It will ask you for a title and an output format: choose pdf.  A `hello world` Rmarkdown file should open. 
 
 Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file.
 
-## The hard way:
 
-Follow the [installation guide](https://techvidvan.com/tutorials/install-r/) for R and Rstudio for all operating systems.  **Note that software should be installed on your local hard drive, not on a network/cloud drive.** 
+## Git er done.
 
-Once you have installed R and Rstudio, open Rstudio. At the prompt > (bottom left of the IDE) type:
-
-    install.packages("tidyverse")
-
-Then hit enter.  **packages are software, and software should be installed on your local hard drive, not on a network/cloud drive.** Here is a link to fix the problem on  [Windows10.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
-
-Once that is done (it may take a while) at the blinking cursor type:
-
-    install.packages("rmarkdown")
-
-Then hit enter. Once that is done (this should be relatively quick) at the blinking cursor type:
-
-    install.packages('tinytex')
-
-Then hit enter. Once that is done (this should be relatively quick) at the blinking cursor type:
-
-    tinytex::install_tinytex()
-    
 Assignments will be made available on Github.  Cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
 
  
