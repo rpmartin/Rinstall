@@ -1,7 +1,6 @@
 ---
 title: "guide to R, Rstudio, Rmarkdown install"
 author: "Richard Martin"
-date: "21/10/2020"
 output:
   html_document:
     keep_md: yes
@@ -77,7 +76,7 @@ Find the `knit` button (there is an icon of a ball of yarn with a needle stickin
 
 ## Git er done.
 
-Assignments will be made available on Github.  Cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
+Assignments will be made available on Github.  If you took the easy path (Rstudio cloud) you should be able to clone the assignment.  If you took the hard path (local install), cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
 
  
 
