@@ -42,8 +42,7 @@ For this course your assignments will involve the analysis of data that is gener
     
     `tinytex::install_tinytex()` then hit enter.
 
-* If no error messages, you are ready for testing. If you did get error messages the only thing that is *strictly* necessary is the tidyverse.  If you were not able to get the tidyverse installed you will need to take the easy path: Rstudio cloud (instructions above.) 
-
+* If no error messages, you are ready for testing.If you were not able to get the above libraries installed you will need to take the easy path: Rstudio cloud (instructions above.) 
 
 # Testing instructions:
 
