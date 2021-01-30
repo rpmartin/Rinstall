@@ -26,35 +26,11 @@ For this course your assignments will involve the analysis of data that is gener
 
 ## The hard way: fast and free.
 
-### MacOS: 
-
-**All software should be installed on your local hard drive, not on a network/cloud drive.**
-
-0) Install [homebrew](https://www.studytonight.com/post/what-is-homebrew-and-how-to-install-it-on-mac-osx)
-
-1) brew cask install r
- 
-2) brew cask install rstudio
-
-3) open Rstudio. At the prompt > (bottom left of the IDE) type:
-
-    `install.packages("tidyverse")` then hit enter.  
-
-    `install.packages("rmarkdown")` then hit enter.
-    
-    `install.packages("tinytex")` then hit enter.
-    
-    `tinytex::install_tinytex()` then hit enter.
-
-* If no error messages, you are ready for testing (instructions below). If you did get error messages the only thing that is *strictly* necessary is the tidyverse.  If you could not get the tidyverse installed you will need to take the easy path: Rstudio cloud (instructions above.) 
-
-### Windows: 
-
 **All software should be installed on your local hard drive, not on a network/cloud drive.**
 
 1) Follow instructions [here](https://techvidvan.com/tutorials/install-r/#install-r-windows) to install R and Rstudio.
 
-2) An annoying "feature" of windows10+Rstudio is that the default is to install packages on the cloud.  Here is how to fix the [Problem.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
+2) An annoying "feature" of windows10+Rstudio is that the default is to install packages on the cloud.  Here is how to fix this [Problem.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
 
 3) open Rstudio. At the prompt > (bottom left of the IDE) type:
 
