@@ -8,7 +8,7 @@ output:
 
 # Assignments:
 
-For this course your assignments will involve the analysis of data that is generated from a series of 6 experiments.  This allows you to gain experience with the models from two different perspectives: from the inside (as subjects in the experiments) and the outside (as a scientist studying the observed behaviour). This document provides links for setting up the software you will require to do the assignments. No programming experience is assumed or required. 
+For this course your assignments will involve the analysis of data that is generated from a series of 5 experiments.  This allows you to gain experience with the models from two different perspectives: from the inside (as subjects in the experiments) and the outside (as a scientist studying the observed behaviour). This document provides links for setting up the software you will require to do the assignments. No programming experience is assumed or required. 
 
 # Installation instructions:
 
