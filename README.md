@@ -21,8 +21,12 @@ For this course your assignments will involve the analysis of data that is gener
 * Click signup... and sign up.
 * Click new project... new project.
 * At the prompt > type `install.packages("tidyverse")` and hit enter.
-* At the prompt > type `library("tidyverse")` and hit enter.
-* If no error messages, you are ready for testing (instructions below).
+* The required packages will be downloaded and installed, and if everything works you should see something like
+  - ![](cloud.jpg)
+ 
+* At the prompt > type `library("tidyverse")` and hit enter, and if you see
+  -![](cloud2.png)
+* you are ready for testing (instructions below).
 
 ## The hard way: fast and free.
 
