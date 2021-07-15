@@ -52,7 +52,9 @@ For this course your assignments will involve the analysis of data that is gener
 
 Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message like "Creating Rmarkdown documents requires...", choose yes. It will ask you for a title and an output format: choose pdf.  A `hello world` Rmarkdown file should open. 
 
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file.
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file:
+
+ ![](hello.png)
 
 
 ## Git er done.
