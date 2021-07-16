@@ -20,7 +20,7 @@ For this course your assignments will involve the analysis of data that is gener
 * Click on get started for free (up to 15 hours/month)
 * Click signup... and sign up.
 * Click new project... new project.
-* At the prompt > type `install.packages("tidyverse")` and hit enter.
+* At the prompt > type `install.packages("tidyverse")` and hit enter... and go grab a coffee.
 * The required packages will be downloaded and installed, and if everything works you should see something like
   - ![](cloud.jpg)
  
