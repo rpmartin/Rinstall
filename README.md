@@ -30,11 +30,13 @@ For this course your assignments will involve the analysis of data that is gener
 
 ## The hard way: fast and free.
 
+You *might* be able to install R and Rstudio on your hard drive aka locally... traditionally about 75% of students are able to do this, but there are numerous reasons for things to not work out of the box... [if you run Windows or have a Mac](https://en.wikipedia.org/wiki/Ubuntu). If you do not delight in troubleshooting failed software installs, just take the easy way (above).   
+
 **All software should be installed on your local hard drive, not on a network/cloud drive.**
 
 1) Follow instructions [here](https://techvidvan.com/tutorials/install-r/#install-r-windows) to install R and Rstudio.
 
-2) An annoying "feature" of windows10+Rstudio is that the default is to install packages on the cloud.  Here is how to fix this [Problem.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
+2) An annoying "feature" of windows10+Rstudio is that the default is to install packages (R extensions) on the cloud.  Here is how to fix this [Problem.](https://medium.com/@ValidScience/how-to-fix-rstudios-package-installation-on-windows-10-c1e602bf3a1f)
 
 3) open Rstudio. At the prompt > (bottom left of the IDE) type:
 
