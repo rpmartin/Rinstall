@@ -46,7 +46,7 @@ For this course your assignments will involve the analysis of data that is gener
     
     `tinytex::install_tinytex()` then hit enter.
 
-* If no error messages, you are ready for testing. If you were not able to get the above packages installed you will need to take the easy path: Rstudio cloud (instructions above.) 
+* If no error messages, you are ready for testing. If you were not able to get the above packages installed you will need to take the easy way: Rstudio cloud (instructions above.) 
 
 # Testing instructions:
 
@@ -59,7 +59,7 @@ Find the `knit` button (there is an icon of a ball of yarn with a needle stickin
 
 ## Git er done.
 
-Assignments will be made available on Github.  If you took the easy path (Rstudio cloud) you should be able to clone the assignment.  If you took the hard path (local install), cloning the assignment is marginally easier but requires you to install [Git](https://git-scm.com/downloads) on your computer.  If you have *any* difficulties with the install of Git, don't bother.  The other option is to download the assignments as zip files and manually unzip them, which does not require an install of Git.
+Assignments will be made available on Github.  If you took the easy way (Rstudio cloud) you should be able to clone the assignment without any further ado. If you took the hard way (local install), in order to clone the assignments from github you need to install [Git](https://git-scm.com/downloads) locally (on your computer).  If you have *any* difficulties with the install of Git, don't bother... there is an option to download the assignments as a zip file.
 
  
 
