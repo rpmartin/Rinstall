@@ -30,7 +30,7 @@ For this course your assignments will involve the analysis of data that is gener
 
 ## The hard way: fast and free.
 
-You *might* be able to install R and Rstudio on your hard drive aka locally... traditionally about 75% of students are able to do this, but there are numerous reasons for things to not work out of the box... [if you run Windows or have a Mac](https://en.wikipedia.org/wiki/Ubuntu). If you do not delight in troubleshooting failed software installs, just take the easy way (above).   
+You *might* be able to install R and Rstudio on your hard drive aka locally... traditionally about 75% of students are able to do this, but there are numerous reasons for things to not work out of the box... [if you run Windows or have a Mac](https://en.wikipedia.org/wiki/Ubuntu). If you do not delight in troubleshooting failed software installs, just take the easy way (as described above).   
 
 **All software should be installed on your local hard drive, not on a network/cloud drive.**
 
