@@ -43,18 +43,14 @@ You *might* be able to install R and Rstudio on your hard drive aka locally... t
     `install.packages("tidyverse")` then hit enter.  
 
     `install.packages("rmarkdown")` then hit enter.
-    
-    `install.packages("tinytex")` then hit enter.
-    
-    `tinytex::install_tinytex()` then hit enter.
 
 * If no error messages, you are ready for testing. If you were not able to get the above packages installed you will need to take the easy way: Rstudio cloud (instructions above.) 
 
 # Testing instructions:
 
-Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message like "Creating Rmarkdown documents requires...", choose yes. It will ask you for a title and an output format: choose pdf.  A `hello world` Rmarkdown file should open. 
+Top left corner of Rstudio, click on `File` then `New File` then `R Markdown` and then hit `Ok`. If you get a message like "Creating Rmarkdown documents requires...", choose yes. It will ask you for a title and an output format: choose html.  A `hello world` Rmarkdown file should open. 
 
-Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted pdf output of your `hello world` Rmarkdown file:
+Find the `knit` button (there is an icon of a ball of yarn with a needle sticking out of it) and click it. Rstudio will ask for a file name and where to save it. Once you are done that a new window should open with the knitted html output of your `hello world` Rmarkdown file:
 
  ![](hello.png)
 
